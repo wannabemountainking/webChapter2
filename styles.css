@@ -1,50 +1,58 @@
 body {
-    background-color: rgb(243, 233, 255);
-    font-family: 'Roboto', sans-serif;
+  background-color: rgb(243, 233, 255);
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
-    margin-top: 60px;
-    margin-bottom: 60px;
-    text-align: center;
-    align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+  align-items: center;
 }
 
 main {
-    width: 700px;
-    margin: auto;
-    background-color: rgb(119, 74, 216);
-    padding: 24px;
-    border: 5px solid;
-    border-radius: 8px;
-    border-color: rgb(119, 74, 216);
-    color: rgb(255, 255, 255);
+  width: 700px;
+  margin: auto;
+  background-color: rgb(119, 74, 216);
+  padding: 24px;
+  border: 5px solid;
+  border-radius: 8px;
+  border-color: rgb(119, 74, 216);
+  color: rgb(255, 255, 255);
 }
 
 h1 {
-    color: rgb(90, 50, 200);
-    font-size: 50px;
+  color: rgb(90, 50, 200);
+  font-size: 50px;
 }
 
 img {
-    width: 200px;
-    height: 100px;
-    margin-top: -10px;
+  width: 200px;
+  height: 100px;
+  margin-top: -10px;
 }
 
 .indent {
-    text-indent: 15px;
+  text-indent: 15px;
+  padding: 8px;
 }
 
 .highlight {
-    background-color: rgb(254, 238, 176);
-    color: rgb(40, 2, 80);
-    padding: 2px 4px;
-    border-radius: 4px;
+  background-color: rgb(254, 238, 176);
+  color: rgb(40, 2, 80);
+  padding: 2px 4px;
+  border-radius: 4px;
 }
 
+.paragraph {
+  padding: 8px 0 8px 17px;
+  margin-right: 100px;
+  height: 19px;
+  display: inline-block;
+}
 .line {
-    border-left: thick solid rgb(244, 211, 84);
-    height: 100%;
-    position: absolute;
+  border-left: thick solid rgb(244, 211, 84);
+  height: 19px;
+  position: absolute;
+  display: inline-block;
 }
