@@ -3,7 +3,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-header {
+header, footer {
   margin-top: 60px;
   margin-bottom: 60px;
   text-align: center;
@@ -32,9 +32,13 @@ img {
   margin-top: -10px;
 }
 
+.emphasis {
+    font-weight: bolder;
+}
+
 .indent {
   text-indent: 15px;
-  padding: 8px;
+  padding: 4px;
 }
 
 .highlight {
@@ -44,15 +48,36 @@ img {
   border-radius: 4px;
 }
 
-.paragraph {
-  padding: 8px 0 8px 17px;
-  margin-right: 100px;
-  height: 19px;
-  display: inline-block;
+.v-line {
+    border-left: thick solid yellow;
+    padding: 0 0 0 13px;
 }
-.line {
-  border-left: thick solid rgb(244, 211, 84);
-  height: 19px;
-  position: absolute;
-  display: inline-block;
+
+.vv-line {
+    border-left: thick solid yellow;
+    padding: 16px 0 0 13px;
+}
+
+.paragraph {
+    display: inline-block;
+    margin: 8px auto;
+    color: rgb(248, 231, 171);
+}
+
+a {
+    background-color: gold;
+    color: rgb(80, 2, 2);
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(200, 1, 1);
+    text-decoration: underline;
+}
+
+.copyright {
+    color: rgb(150, 141, 141);
+    margin-top: 32px;
 }
